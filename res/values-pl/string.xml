@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2013 ParanoidAndroid Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">Paranoid OTA</string>
+    <string name="slider_updates">Aktualizacje</string>
+    <string name="slider_rom">ROM</string>
+    <string name="slider_google_apps">Aplikacje Google</string>
+    <string name="slider_changelog">Lista zmian</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="drawer_open">Otwórz pasek nawigacji</string>
+    <string name="drawer_close">Zamknij pasek nawigacji</string>
+    <string name="check_for_updates">Sprawdź</string>
+    <string name="changelog_error">Nie mogę załadować listy zmian!</string>
+
+    <!-- UPDATES -->
+    <string name="all_up_to_date">Twój system jest aktualny!</string>
+    <string name="rom_gapps_new_version">Znalazłem nowszą wersję!</string>
+    <string name="rom_new_version">Znalazłem nowszą wersję ROMu!</string>
+    <string name="gapps_new_version">Znalazłem nowszę wersję aplikacji Google!</string>
+    <string name="rom_scanning">Szukam aktualizacji...</string>
+    <string name="gapps_version">Aplikacje Google %1$s</string>
+    <string name="rom_outdated">Twój ROM jest stary!</string>
+    <string name="gapps_outdated">Twoje aplikacje Google są stare!</string>
+    <string name="no_rom_updates">Brak aktualizacji</string>
+    <string name="no_gapps_updates">Brak aktualizacji dla aplikacji Google</string>
+    <string name="check_rom_updates_no_new">Brak aktualizacji ROMu</string>
+    <string name="check_rom_updates_error">Błąd przy sprawdzaniu aktualizacji ROMu</string>
+    <string name="check_gapps_updates_no_new">Brak aktualizacji dla aplikacji Google</string>
+    <string name="check_gapps_updates_error">Błąd przy sprawdzaniu aktualizacji dla aplikacji Google</string>
+
+    <!-- DOWNLOADS/NOTIFICATIONS -->
+    <string name="download_title">Pobieram %1$s...</string>
+    <string name="new_rom_found_title">Znalazłem nowszą wersję systemu</string>
+    <string name="new_gapps_found_title">Znalazłem nowszą wersję aplikacji Google</string>
+    <string name="new_package_name">%1$s</string>
+    <string name="new_packages">%1$s aplikacje dostępne do pobrania</string>
+    <string name="cancel_download_alert_title">Anuluj pobieranie</string>
+    <string name="cancel_download_alert_summary">Czy chcesz anulować obecne pobieranie??</string>
+    <string name="already_downloading_rom">Pobierasz już aktualizację ROMu.</string>
+    <string name="already_downloading_gapps">Pobierasz już aktualizację aplikacji Google.</string>
+    <string name="calculating_md5">Obliczanie sumy kontrolnej MD5 ...</string>
+    <string name="md5_mismatch">Błąd sumy kontrolnej MD5</string>
+    <string name="md5_mismatch_summary">Odebrano:\n%1$s\nPrzeliczono:\n%2$s</string>
+
+    <!-- RECOVERY -->
+    <string name="recovery_cwm">ClockworkMod (CWM)</string>
+    <string name="recovery_twrp">TeamWin (TWRP)</string>
+    <string name="recovery_select_alert_title">Wybierz kopie bezpieczeństwa</string>
+    <string name="recovery_select_alert_summary">Wybierz typ kopii bezpieczeństwa. Możesz ten wybór zmienić później w ustawieniach aplikacji.</string>
+    <string name="recovery_select_sdcard_alert_title">Ścieżka dostępu do magazynu danych</string>
+    <string name="recovery_select_sdcard_alert_summary">Wybierz nazwę magazynu danych</string>
+    <string name="recovery_select_sdcard_alert_error">Proszę wybrać nazwę magazynu danych</string>
+    <string name="recovery_changed">Recovery %1$s configured.</string>
+
+    <!-- SETTINGS -->
+    <string name="settings_expertmode_title">Tryb zaawansowany</string>
+    <string name="settings_expertmode_summary">Pokaż wszystkie opcje</string>
+    <string name="settings_update">Aktualizacje</string>
+    <string name="settings_checktime_title">Częstotliwość sprawdzania aktualizacji</string>
+    <string name="settings_checktime_summary">Wybierz odstęp po między sprawdzaniem aktualizacji</string>
+    <string name="time_notifications_never">Nie sprawdzaj</string>
+    <string name="time_notifications_half_an_hour">Pół godziny</string>
+    <string name="time_notifications_an_hour">Godzina</string>
+    <string name="time_notifications_two_hours">Dwie godziny</string>
+    <string name="time_notifications_five_hours">5 Godzin</string>
+    <string name="time_notifications_daily">Raz dziennie</string>
+    <string name="settings_download_path">Pobierz folder</string>
+    <string name="settings_download_path_alert_title">Ścieżka dostępu do pobranych aktualizacji</string>
+    <string name="settings_download_path_alert_summary">Wybierz ścieżkę dostępu do zapisania aktualizacji</string>
+    <string name="settings_download_path_alert_error">Wybierz ścieżkę dostępu do zapisania aktualizacji</string>
+    <string name="settings_recovery">Kopia bezpieczeńśtwa</string>
+    <string name="settings_selectrecovery_title">Wybierz kopie bezpieczeństwa</string>
+    <string name="settings_selectrecovery_summary">Wybierz zainstalowane narzędzie do tworzenia kopii bezpieczeństwa</string>
+    <string name="settings_internalsdcard_title">Ścieżka dostępu do pamięci wewnętrznej</string>
+    <string name="settings_internalsdcard_summary">Wybierz ścieżkę dostępu wykorzystywaną przez narzędzie do tworzenia kopii bezpieczeństwa</string>
+    <string name="settings_externalsdcard_title">Ścieżka dostępu do pamięci zewnętrzbej</string>
+    <string name="settings_externalsdcard_summary">Wybierz ścieżkę do pamięci zewnętrznej używanej przez narzędzie do tworzenia kopii bezpieczeństwa</string>
+    <string name="settings_showoptions_title">Opcje</string>
+    <string name="settings_showoptions_summary">Wybierz opcje instalacji do pokazania</string>
+    <string name="install_option_backup">Kopia bezpieczeństwa</string>
+    <string name="install_option_wipe_system">Wyczuść System</string>
+    <string name="install_option_wipe_data">Wyczyść Data</string>
+    <string name="install_option_wipe_caches">Wyczyść Cache &amp; Dalvik</string>
+
+    <!-- REBOOT & INSTALL-->
+    <string name="backup">KOpia bezpieczeństwa</string>
+    <string name="wipe_system">Wyczyść System</string>
+    <string name="wipe_data">Wyczyść Data</string>
+    <string name="wipe_caches">Wyczyść Cache &amp; Dalvik</string>
+    <string name="alert_backup_space_title">Pozostało wolnej pamięci</string>
+    <string name="alert_backup_space_message">Jest mniej niż %1$sGB wolnej przestrzeni na wewnętrznej karcie SD. Chcesz kontynuować tworzenie kopii bezpieczeństwa?</string>
+    <string name="alert_backup_title">Kopia bezpieczeństwa</string>
+    <string name="alert_backup_message">Wybierz nazwę dla kopii bezpieczeństwa (spacje zostaną usunięte).</string>
+    <string name="system">System</string>
+    <string name="data">Data</string>
+    <string name="cache">Cache</string>
+    <string name="recovery">Recovery</string>
+    <string name="boot">Boot</string>
+    <string name="androidsecure">Android secure</string>
+    <string name="sdext">SD-Ext</string>
+    <string name="alert_reboot_install_title">Wybierz akcje i zainstaluj</string>
+    <string name="alert_reboot_only_install_title">Instaluj aktualizacje</string>
+    <string name="alert_reboot_one_message">Twoje urządzenie zrestaruje się i uruchomi w trybie Recovery, pliki zostaną zainstalowane %1$s.</string>
+    <string name="alert_reboot_more_message">Twoje urządzenie zrestaruje się i uruchomi w trybie Recovery, pliki zostaną zainstalowane %1$s.</string>
+    <string name="alert_reboot_add_zip">Dodaj plik zip</string>
+    <string name="alert_reboot_now">Instaluj teraz</string>
+    <string name="alert_wipe_system_title">Czyszczenie System</string>
+    <string name="alert_wipe_system_message">Masz zamiar skasowaś System. Jesteś pewny, że chcesz kontynuować?</string>
+    <string name="invalid_zip_file">Niepoprawny plik ZIP</string>
+    <string name="install_file_manager_error">Brak aplikacji do wybrania pliku zip. Proszę zainstalować menadżer plików.</string>
+</resources>
